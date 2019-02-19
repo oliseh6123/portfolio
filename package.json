@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "My Portfolio ",
   "main": "index.js",
+  "homepage": "https://oliseh613.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Oliseh Obiajuru",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "gh": "^1.17.0",
+    "node-sass": "^4.11.0",
+    "pages": "0.0.16"
   }
 }
